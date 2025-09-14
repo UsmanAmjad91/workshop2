@@ -20,7 +20,7 @@ services:
       - VIRTUAL_PORT=8000
   nginx:
     build: ./nginx
-    image: 872111493916.dkr.ecr.us-west-1.amazonaws.com/workshop2:workshop2_nginx!
+    image: 872111493916.dkr.ecr.us-west-1.amazonaws.com/workshop2:workshop2_nginx
     volumes:
       - static_volume:/usr/src/app/static
     ports:
